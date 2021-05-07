@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
-    --primary: #c66b3d;
-    --secondary: #c4a35a;
-    --dark: #26495c;
+    --primary: #333;
+    --secondary: #c56ba7;
+    --dark: ;
     --light: #e5e5dc;
 }
 
@@ -19,11 +20,12 @@ nav {
     position: sticky;
     top: 0;
     background-color: var(--primary);
-    color: var(--dark);
+    color: var(--secondary);
     font-weight: bold;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    width: 100%;
 }
 
 nav h1 {
@@ -41,46 +43,145 @@ nav ul {
 
 nav ul li h3 a {
     text-decoration: none;
-    color: var(--dark);
+    color: var(--secondary);
     padding: 1rem;
     border-radius: 10px;
 }
 
 nav ul li h3 a:hover {
     font-style: italic;
-    color: #336580;
-    background-color: var(--dark);
+    color: var(--primary);
+    background-color: var(--secondary);
     transition: .3s linear;
 }
 
 /*hero/about*/
 main {
     display: flex;
-    justify-content: space-around;
-    background-image: url(./images/tree-background.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    background-color: gray;
+    width: 100%;
 }
 
 main section {
     text-align: right;
-    margin: 150px 50px 150px 300px;
-    padding: 50px;
+    width: 35%;
+    margin: 40px;
+    margin-right: 5px;
+    padding: 25px;
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.7); 
     color: var(--light);
-    font-size: 20px;
-    font-style: italic;
+    font-size: 15px;
 }
 
 main section h2 {
-    font-size: 40px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 main img {
-    height: 500px;
-    margin: 50px 250px 50px 50px;
-    border-radius: 50%;  
+    width: 250px;
+    margin: 40px;
+    border-radius: 50%;
+      
 }
+
+/*projects*/
+
+.projects {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.main-project {
+    height: 500px;
+    width: 40%;
+    margin: 25px;
+    border: none;
+    border: solid 5px var(--primary);
+}
+
+.main-project img {
+    height: 500px;
+}
+
+.side-projects {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    height: 500px;
+    width: 40%;
+}
+
+.project-item {
+    background-image: url(./images/codecode.jpg);
+    background-size: cover;
+    justify-content: space-between;
+    margin: 10px 0;
+    height: 300px;
+    border: none;  
+    border: solid 5px var(--primary);
+}
+
+
+button h3 {
+    background-color: grey;
+    text-align: left;
+    padding: 15px 0;
+    width: 35%;
+    text-align: center;
+    border: solid 5px var(--primary);
+    border-left: none;
+    font-size: 100%;
+    
+}
+
+button:hover {
+    filter: none;
+    transition: .3s linear;
+    
+}
+
+/*footer/contact*/
+
+footer {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    width: 100%;
+}
+
+footer h2 {
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: right;
+    color: gray;
+}
+
+footer h2 span {
+    color: var(--secondary);
+    border-bottom: solid;
+}
+
+footer ul {
+    list-style: none;
+    text-align: left;
+    font-size: 25px;
+    color: gray;
+}
+
+footer ul li {
+    padding: 5px;
+    margin: 25px;
+    font-weight: bold;
+    border-bottom: solid 2px var(--secondary);
+}
+
+footer ul li span {
+    color: var(--secondary);
+}
+
