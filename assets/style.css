@@ -85,7 +85,7 @@ main img {
     width: 250px;
     margin: 40px;
     border-radius: 50%;
-      
+    
 }
 
 /*projects*/
@@ -133,12 +133,14 @@ main img {
     width: 100%;
     filter: blur(3px);
     transition: filter 300ms;
+    object-fit: cover;
   }
 
   .main-item img {
     width: 100%;
     filter: blur(3px);
     transition: filter 300ms;
+    object-fit: cover;
   }
   
   .item:hover img {
@@ -160,7 +162,7 @@ main img {
 footer {
     background-color: var(--primary);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 50px;
     width: 100%;
 }

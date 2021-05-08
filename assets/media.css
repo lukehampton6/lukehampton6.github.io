@@ -1,4 +1,148 @@
-@media only screen and (max-width: 1024px) {
-    
+/*widescreens*/
+@media only screen and (min-width: 1025px)
+{ main {
+    padding: 100px;
+}
+
+main section {
+    width: 40%;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+main section h2 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+main img {
+    height: 400px;
+    width: 400px;
+}
+
+.container {
+    padding: 125px;
+}
+
+.main-item {
+    height: 400px;
+    margin: 20px;
+}
+
+.item {
+    height: 400px;
+    margin: 20px;
+}
+
+footer {
+    padding: 50px;
+}
+
+footer ul {
+    padding-left: 25px;
+}
+}
+/*tablets*/
+@media only screen and (max-width: 769px) { main {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: auto;
+}
+
+main section {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+    width: 50%;
+}
+
+.container {
+    padding: 15px;
+}
+
+.label {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+footer h2 {
+    font-size: 35px;
+}
+
+footer ul{
+    margin: auto;
+    font-size: 15px;
+}
+}
+   
+/*phones*/
+@media only screen and (max-width: 480px) { nav {
+    font-size: 15px;
+    padding: 0;
+}
+
+nav h1 {
+    margin-top: 40px;
 }
     
+nav ul {
+    flex-direction: column;
+    
+}
+nav ul li {
+    margin: 8px;
+    padding: 0;
+}
+
+main section {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+main section h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.main-item {
+    height: 200px;
+    margin: 5px;
+}
+
+.item {
+    margin: 5px;
+}
+
+.label {
+    font-size: 11px;
+    padding: 7px;
+}
+footer {
+    padding: 10px;
+}
+
+footer h2 {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+footer ul {
+    font-size: 15px;
+    margin: 5px;
+}
+
+footer ul li {
+    margin: 10px;
+}
+
+}
+
