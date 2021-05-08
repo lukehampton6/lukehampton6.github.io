@@ -26,6 +26,7 @@ nav {
     justify-content: space-between;
     padding: 1rem;
     width: 100%;
+    z-index: 9999;
 }
 
 nav h1 {
@@ -89,61 +90,70 @@ main img {
 
 /*projects*/
 
-.projects {
+.container {
     display: flex;
-    justify-content: center;
-    margin: auto;
+    flex-wrap: wrap;
     width: 100%;
-}
-
-.main-project {
-    height: 500px;
-    width: 40%;
-    margin: 25px;
-    border: none;
-    border: solid 5px var(--primary);
-}
-
-.main-project img {
-    height: 500px;
-}
-
-.side-projects {
-    display: flex;
-    flex-direction: column;
-    margin: 25px;
-    height: 500px;
-    width: 40%;
-}
-
-.project-item {
-    background-image: url(./images/codecode.jpg);
-    background-size: cover;
-    justify-content: space-between;
-    margin: 10px 0;
+    margin: auto;
+    padding: 75px;
+  }
+  
+  .main-item {
+    position: relative;
+    border: 6px solid var(--primary);
     height: 300px;
-    border: none;  
-    border: solid 5px var(--primary);
-}
+    overflow: hidden;
+    margin: 10px;
+  }
 
+  .item {
+    position: relative;
+    border: 6px solid var(--primary);
+    height: 200px;
+    width: 100%;
+    margin: 10px;
+    overflow: hidden;
+  }
 
-button h3 {
-    background-color: grey;
-    text-align: left;
-    padding: 15px 0;
-    width: 35%;
-    text-align: center;
-    border: solid 5px var(--primary);
-    border-left: none;
-    font-size: 100%;
-    
-}
+  
+  .label {
+    font-size: 22px;
+    font-family: helvetica;
+    position: absolute;
+    font-weight: bold;
+    color: var(--secondary);
+    background-color: var(--primary);
+    bottom: 20px;
+    left: 0;
+    padding: 20px 40px;
+  }
+  
+  .item img {
+    height: 100%;
+    width: 100%;
+    filter: blur(3px);
+    transition: filter 300ms;
+  }
 
-button:hover {
+  .main-item img {
+    width: 100%;
+    filter: blur(3px);
+    transition: filter 300ms;
+  }
+  
+  .item:hover img {
     filter: none;
-    transition: .3s linear;
-    
-}
+  }
+
+  .main-item:hover img {
+    filter: none;
+  }
+  .side-projects {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+  }
 
 /*footer/contact*/
 
