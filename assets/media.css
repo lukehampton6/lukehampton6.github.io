@@ -114,11 +114,12 @@ main section h2 {
 }
 
 .main-item {
-    height: 200px;
+    height: 175px;
     margin: 5px;
 }
 
 .item {
+    height: 175px;
     margin: 5px;
 }
 
