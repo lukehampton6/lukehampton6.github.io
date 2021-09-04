@@ -16,7 +16,7 @@ function Nav() {
     <>
       <Navbar className="dark">
         <Container fluid>
-          <Button className="primary" onClick={handleShow}>
+          <Button onClick={handleShow}>
             Nav
           </Button>
         </Container>
