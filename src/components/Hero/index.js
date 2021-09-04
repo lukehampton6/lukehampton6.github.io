@@ -3,16 +3,19 @@ import image from '../../assets/images/me.JPG'
 
 function Hero() {
     return (
-        <div className="primary">
-            <Container>
+        <div className="light">
+            <Container className="hero-container">
                 <Row>
                 <Col>
-                    <h1 className="light-text">Hey There!</h1>
-                    <h2 className="dark-text">My name is Luke.</h2> 
-                    <h4 className="dark-text">I am a full-stack web devoloper based in Florida. </h4>
+                    <div className="hero-text">
+                    <h1 className="dark-text">Hey There!</h1>
+                    <br/>
+                    <h2 className="highlight-text">My name is Luke.</h2> 
+                    <h4 className="dark-text">I am a full-stack web devoloper based in Florida. I love anything to do with computers and am always pushing myself to learn new technologies.</h4>
+                    </div>
                 </Col>
-                <Col>
-                <Image alt='Dev-Image' src={image} roundedCircle fluid/>
+                <Col className="img-col">
+                <Image className="devpic" alt='Dev-Image' src={image} roundedCircle fluid/>
                 </Col>
                 </Row>
             </Container>

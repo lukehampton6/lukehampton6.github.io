@@ -12,6 +12,15 @@ code {
     monospace;
 }
 
+@media screen and (max-width: 500px) {
+  .img-col {
+    display: none;
+  }
+  .hero-text {
+    width: 100%;
+  }
+}
+
 .dark {
   background-color: #3d3939;
 }
@@ -29,7 +38,7 @@ code {
 }
 
 .highlight {
-  background-color: #c1b5a6;
+  background-color: #ad9e96;
 }
 
 .dark-text {
@@ -49,6 +58,18 @@ code {
 }
 
 .highlight-text {
-  color: #c1b5a6;
+  color: #ad9e96;
 }
 
+.devpic {
+  box-shadow: -4vw 4vw #3d3939, -4vw -4vw #ad9e96;
+  justify-content: center;
+}
+
+.hero-container {
+  padding: 7.5vw;
+}
+
+.hero-text {
+  width: 80%;
+}
