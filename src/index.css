@@ -12,12 +12,22 @@ code {
     monospace;
 }
 
+i {
+  width: 500px;
+}
+
 @media screen and (max-width: 500px) {
   .img-col {
     display: none;
   }
   .hero-text {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .icon {
+    width: 15vw;
   }
 }
 
@@ -61,6 +71,11 @@ code {
   color: #ad9e96;
 }
 
+.center {
+  text-align: center;
+  padding: 3rem;
+}
+
 .header {
   font-size: 3rem;
 }
@@ -80,8 +95,19 @@ code {
 
 .hero-container {
   padding: 7.5vw;
+  border-bottom: solid 3px #ad9e96;
 }
 
 .hero-text {
   width: 80%;
+}
+
+.icon {
+  width: 5vw;
+}
+
+.icon-container {
+  margin: 3vw;
+  display: flex;
+  justify-content: center;
 }
