@@ -28,15 +28,18 @@ function Nav() {
         </Offcanvas.Header>
           <ListGroup defaultActiveKey="#link1">
             <ListGroup.Item action href="#link1">
-              Projects
+              About
             </ListGroup.Item>
             <ListGroup.Item action href="#link2">
               Technologies
             </ListGroup.Item>
             <ListGroup.Item action href="#link3">
-              Resume
+              Projects
             </ListGroup.Item>
             <ListGroup.Item action href="#link4">
+              Resume
+            </ListGroup.Item>
+            <ListGroup.Item action href="#link5">
               Contact
             </ListGroup.Item>
           </ListGroup>

@@ -61,9 +61,21 @@ code {
   color: #ad9e96;
 }
 
+.header {
+  font-size: 3rem;
+}
+
+.header-two {
+  font-size: 2.5rem;
+}
+
+.header-content {
+  font-size: 1.5rem;
+}
+
 .devpic {
   box-shadow: -4vw 4vw #3d3939, -4vw -4vw #ad9e96;
-  justify-content: center;
+  width: 30rem;
 }
 
 .hero-container {
