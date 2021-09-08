@@ -12,16 +12,15 @@ code {
     monospace;
 }
 
-i {
-  width: 500px;
-}
-
 @media screen and (max-width: 500px) {
   .img-col {
     display: none;
   }
   .hero-text {
     width: 100%;
+  }
+  .icon {
+    width: 5px;
   }
 }
 
@@ -103,11 +102,31 @@ i {
 }
 
 .icon {
-  width: 5vw;
+  width: 10rem;
 }
 
 .icon-container {
-  margin: 3vw;
+  padding: 3vw;
   display: flex;
   justify-content: center;
+}
+
+.left-icon-col {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-icon-col {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-container {
+  margin: 1vw;
+  display: flex;
+  justify-content: center;
+}
+
+.card-div {
+  border-top: solid 3px #ad9e96;
 }
