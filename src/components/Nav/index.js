@@ -1,50 +1,17 @@
-import { useState } from "react";
-import {
-  Button,
-  Offcanvas,
-  Navbar,
-  Container,
-  ListGroup,
-} from "react-bootstrap";
+import { Navbar, Container } from "react-bootstrap";
 
 function Nav() {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
   return (
-    <>
-      <Navbar className="dark">
-        <Container fluid>
-          <Button onClick={handleShow}>
-            Nav
-          </Button>
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
         </Container>
       </Navbar>
-
-      <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header className="primary" closeButton>
-          <Offcanvas.Title className="dark-text">Menu</Offcanvas.Title>
-        </Offcanvas.Header>
-          <ListGroup defaultActiveKey="#link1">
-            <ListGroup.Item action href="#link1">
-              About
-            </ListGroup.Item>
-            <ListGroup.Item action href="#link2">
-              Technologies
-            </ListGroup.Item>
-            <ListGroup.Item action href="#link3">
-              Projects
-            </ListGroup.Item>
-            <ListGroup.Item action href="#link4">
-              Resume
-            </ListGroup.Item>
-            <ListGroup.Item action href="#link5">
-              Contact
-            </ListGroup.Item>
-          </ListGroup>
-      </Offcanvas>
-    </>
   );
 }
 

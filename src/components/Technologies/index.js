@@ -10,9 +10,9 @@ function Technologies() {
     }, []);
 
     return (
-        <div className="light">
+        <div className="primary">
         <Container>
-            <h2 data-aos="fade-down" className="dark-text header-two center">Technologies</h2>
+            <h1 data-aos="fade-down" className="light-text header center">Technologies</h1>
             <Row className="icon-container">
                 <Col data-aos="fade-right" className="icon-col">
                 <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""/>
@@ -44,6 +44,7 @@ function Technologies() {
                 </Col>
             </Row>
         </Container>
+        <div className="spacer dark-light"></div>
         </div>
     )
 }

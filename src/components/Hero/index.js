@@ -26,6 +26,7 @@ function Hero() {
                 </Col>
                 </Row>
             </Container>
+            <div className="spacer light-dark"></div>
         </div>
     );
 }

@@ -31,48 +31,65 @@ code {
 }
 
 .dark {
-  background-color: #3d3939;
+  background-color: #171717;
 }
 
 .light {
-  background-color: #ebe8e3;
+  background-color: #EDEDED;
 }
 
 .primary {
-  background-color: #929192;
+  background-color: #444444;
 }
 
 .secondary {
-  background-color: #e4e1d8;
+  background-color: #C4B6B6;
 }
 
 .highlight {
-  background-color: #ad9e96;
+  background-color: #DA0037;
 }
 
 .dark-text {
-  color: #3d3939;
+  color: #171717;
 }
 
 .light-text {
-  color: #ebe8e3;
+  color: #EDEDED;
 }
 
 .primary-text {
-  color: #929192
+  color: #444444
 }
 
 .secondary-text {
-  color: #e4e1d8;
+  color: #C4B6B6;
 }
 
 .highlight-text {
-  color: #ad9e96;
+  color: #DA0037;
+}
+
+.spacer {
+  aspect-ratio: 960/150;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.light-dark {
+  background-image: url(./assets/images/layered-waves-haikei\ \(2\).svg);
+}
+
+.dark-light {
+  background-image: url(./assets/images/layered-waves-haikei\ \(3\).svg);
 }
 
 .center {
   text-align: center;
   padding: 3rem;
+  padding-top: 0;
 }
 
 .header {
@@ -88,13 +105,12 @@ code {
 }
 
 .devpic {
-  box-shadow: -4vw 4vw #3d3939, -4vw -4vw #ad9e96;
+  box-shadow: -4vw 4vw #171717, -4vw -4vw #DA0037;
   width: 30rem;
 }
 
 .hero-container {
-  padding: 7.5vw;
-  border-bottom: solid 3px #ad9e96;
+  padding: 6vw;
 }
 
 .hero-text {
@@ -130,8 +146,4 @@ code {
   margin: 1vw;
   display: flex;
   justify-content: center;
-}
-
-.card-div {
-  border-top: solid 3px #ad9e96;
 }
