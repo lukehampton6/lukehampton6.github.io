@@ -111,6 +111,11 @@ code {
   justify-content: center;
 }
 
+.icon-col {
+  display: flex;
+  justify-content: center;
+}
+
 .left-icon-col {
   display: flex;
   justify-content: flex-end;
