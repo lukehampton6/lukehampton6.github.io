@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d6b70b45.chunk.css",
+    "main.js": "/static/js/main.27ff22a4.chunk.js",
+    "main.js.map": "/static/js/main.27ff22a4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e246f351.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e246f351.js.map",
+    "static/css/2.4b5a89da.chunk.css": "/static/css/2.4b5a89da.chunk.css",
+    "static/js/2.7c691a3d.chunk.js": "/static/js/2.7c691a3d.chunk.js",
+    "static/js/2.7c691a3d.chunk.js.map": "/static/js/2.7c691a3d.chunk.js.map",
+    "static/js/3.727971f5.chunk.js": "/static/js/3.727971f5.chunk.js",
+    "static/js/3.727971f5.chunk.js.map": "/static/js/3.727971f5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4b5a89da.chunk.css.map": "/static/css/2.4b5a89da.chunk.css.map",
+    "static/css/main.d6b70b45.chunk.css.map": "/static/css/main.d6b70b45.chunk.css.map",
+    "static/js/2.7c691a3d.chunk.js.LICENSE.txt": "/static/js/2.7c691a3d.chunk.js.LICENSE.txt",
+    "static/media/animesearch.88d3f3b8.jpg": "/static/media/animesearch.88d3f3b8.jpg",
+    "static/media/index.css": "/static/media/light-hollow-blob.6b6c7d79.svg",
+    "static/media/devicon.min.css": "/static/media/devicon.aa11b617.ttf",
+    "static/media/me.f7262032.JPG": "/static/media/me.f7262032.JPG",
+    "static/media/myspacerevival.08709614.jpg": "/static/media/myspacerevival.08709614.jpg",
+    "static/media/thethirdtemple.7dabb848.jpg": "/static/media/thethirdtemple.7dabb848.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e246f351.js",
+    "static/css/2.4b5a89da.chunk.css",
+    "static/js/2.7c691a3d.chunk.js",
+    "static/css/main.d6b70b45.chunk.css",
+    "static/js/main.27ff22a4.chunk.js"
+  ]
+}
