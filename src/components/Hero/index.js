@@ -10,7 +10,7 @@ function Hero() {
     }, []);
 
     return (
-        <div className="light">
+        <div className="light blob light-hollow-blob" id="about">
             <Container className="hero-container">
                 <Row>
                 <Col data-aos="fade-right">

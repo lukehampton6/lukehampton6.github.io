@@ -2,8 +2,9 @@ import { Card, Container, CardGroup, Button } from "react-bootstrap";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import image1 from '../../assets/images/thethirdtemple.jpg'
-import image2 from '../../assets/images/animesearch.jpg'
+import thethirdtemple from '../../assets/images/thethirdtemple.jpg'
+import animesearch from '../../assets/images/animesearch.jpg'
+import myspacerevival from '../../assets/images/myspacerevival.jpg'
 
 function Projects() {
   useEffect(() => {
@@ -11,14 +12,14 @@ function Projects() {
   }, []);
 
   return (
-    <div className="light">
+    <div className="light" id="projects">
       <Container className="card-div">
         <h1 data-aos="fade-down" className="dark-text header center">
           Projects
         </h1>
         <CardGroup>
           <Card data-aos="flip-right" className="card-container">
-            <Card.Img variant="top" src={image1} />
+            <Card.Img variant="top" src={thethirdtemple} />
             <Card.Body>
               <Card.Title>The Third Temple</Card.Title>
               <Card.Text>
@@ -30,7 +31,7 @@ function Projects() {
           </Card>
 
           <Card data-aos="flip-left" className="card-container">
-            <Card.Img variant="top" src={image2} />
+            <Card.Img variant="top" src={animesearch} />
             <Card.Body>
               <Card.Title>AnimeSearch</Card.Title>
               <Card.Text>
@@ -44,24 +45,22 @@ function Projects() {
 
         <CardGroup>
           <Card data-aos="flip-right" className="card-container">
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src={myspacerevival} />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Social Media Back-end</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                A mock-up back-end for a basic social media website using Express.js and MongoDB. There are various CRUD routes set up for users and their posts, ready to be serve data to a front-end.
               </Card.Text>
+              <Button href="https://github.com/lukehampton6/myspace-revival" target="_blank" variant="secondary">Code</Button>
             </Card.Body>
           </Card>
 
           <Card data-aos="flip-left" className="card-container">
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Project coming soon!</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+                Waiting to make some more substantial projects to display!
               </Card.Text>
             </Card.Body>
           </Card>
@@ -71,10 +70,9 @@ function Projects() {
         <Card data-aos="flip-right" className="card-container">
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Project coming soon!</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+              Waiting to make some more substantial projects to display!
               </Card.Text>
             </Card.Body>
           </Card>
@@ -82,16 +80,15 @@ function Projects() {
           <Card data-aos="flip-left" className="card-container">
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Project coming soon!</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
+              Waiting to make some more substantial projects to display!
               </Card.Text>
             </Card.Body>
           </Card>
         </CardGroup>
       </Container>
+      <div className="spacer light-dark"></div>
     </div>
   );
 }

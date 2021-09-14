@@ -10,7 +10,7 @@ function Technologies() {
     }, []);
 
     return (
-        <div className="primary">
+        <div className="primary" id="technologies">
         <Container>
             <h1 data-aos="fade-down" className="light-text header center">Technologies</h1>
             <Row className="icon-container">
@@ -40,7 +40,7 @@ function Technologies() {
                 <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt=""/>
                 </Col>
                 <Col data-aos="fade-left" className="icon-col">
-                <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt=""/>
+                <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt=""/>
                 </Col>
             </Row>
         </Container>

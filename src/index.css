@@ -1,21 +1,15 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 @media screen and (max-width: 500px) {
-  .img-col {
-    display: none;
-  }
   .hero-text {
     width: 100%;
   }
@@ -27,6 +21,9 @@ code {
 @media screen and (max-width: 1000px) {
   .icon {
     width: 15vw;
+  }
+  .img-col {
+    display: none;
   }
 }
 
@@ -70,6 +67,30 @@ code {
   color: #DA0037;
 }
 
+.link {
+  color: #EDEDED;
+}
+
+.link:hover {
+  color: #DA0037;
+}
+
+.blob {
+  aspect-ratio: 930/150;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.light-hollow-blob {
+  background-image: url(./assets/images/light-hollow-blob.svg);
+}
+
+.dark-hollow-blob {
+  background-image: url(./assets/images/dark-hollow-blob.svg);
+}
+
 .spacer {
   aspect-ratio: 960/150;
   width: 100%;
@@ -79,11 +100,11 @@ code {
 }
 
 .light-dark {
-  background-image: url(./assets/images/layered-waves-haikei\ \(2\).svg);
+  background-image: url(./assets/images/light-dark.svg);
 }
 
 .dark-light {
-  background-image: url(./assets/images/layered-waves-haikei\ \(3\).svg);
+  background-image: url(./assets/images/dark-light.svg);
 }
 
 .center {
@@ -92,12 +113,16 @@ code {
   padding-top: 0;
 }
 
+.align-right {
+  text-align: end;
+}
+
 .header {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .header-two {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .header-content {
@@ -105,7 +130,7 @@ code {
 }
 
 .devpic {
-  box-shadow: -4vw 4vw #171717, -4vw -4vw #DA0037;
+  box-shadow: -3vw 3vw #171717, 3vw -3vw #DA0037;
   width: 30rem;
 }
 
@@ -132,18 +157,12 @@ code {
   justify-content: center;
 }
 
-.left-icon-col {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.right-icon-col {
-  display: flex;
-  justify-content: flex-start;
-}
-
 .card-container {
-  margin: 1vw;
+  margin: 3vw;
   display: flex;
   justify-content: center;
+}
+
+.footer-row {
+  padding: 2vw;
 }
