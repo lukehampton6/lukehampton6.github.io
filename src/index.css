@@ -13,8 +13,13 @@ body {
   .hero-text {
     width: 100%;
   }
+
   .icon {
     width: 5px;
+  }
+
+  .empty-col {
+    display: none;
   }
 }
 
@@ -83,12 +88,12 @@ body {
   background-size: cover;
 }
 
-.light-hollow-blob {
-  background-image: url(./assets/images/light-hollow-blob.svg);
+.light-blobs {
+  background-image: url(./assets/images/light-blobs.svg);
 }
 
-.dark-hollow-blob {
-  background-image: url(./assets/images/dark-hollow-blob.svg);
+.dark-blobs {
+  background-image: url(./assets/images/dark-blobs.svg);
 }
 
 .spacer {
@@ -130,7 +135,7 @@ body {
 }
 
 .devpic {
-  box-shadow: -3vw 3vw #171717, 3vw -3vw #DA0037;
+  /* box-shadow: -3vw 3vw #171717, 3vw -3vw #DA0037; */
   width: 30rem;
 }
 
@@ -165,4 +170,12 @@ body {
 
 .footer-row {
   padding: 2vw;
+}
+
+.left-border {
+  border-left: solid 3px #DA0037;
+}
+
+.right-border {
+  border-right: solid 3px #DA0037;
 }
