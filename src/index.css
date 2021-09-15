@@ -32,6 +32,13 @@ body {
   }
 }
 
+#about::before, #projects::before, #technologies::before {
+  content: '';
+  display: block;
+  height: 75px;
+  margin: -30px 0 0;
+}
+
 .dark {
   background-color: #171717;
 }
