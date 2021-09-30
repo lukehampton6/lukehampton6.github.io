@@ -11,7 +11,7 @@ function Technologies() {
 
     return (
         <div className="primary" id="technologies">
-        <Container>
+        <Container className="margin-bottom">
             <h1 data-aos="fade-down" className="light-text header center">Technologies</h1>
             <Row className="icon-container">
                 <Col data-aos="fade-right" className="icon-col">

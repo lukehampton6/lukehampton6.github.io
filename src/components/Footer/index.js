@@ -2,6 +2,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import resume from "../../assets/documents/Luke_Hampton_Resume.PDF";
 
 function Footer() {
     useEffect(() => {
@@ -16,8 +17,8 @@ function Footer() {
             </Col>
             <Col data-aos="fade-left" className="left-border">
             <h1 className="header highlight-text">Resume</h1>
-            <p className="light-text header-content"><a className="link" href="/" target="_blank" rel="noreferrer">Heres a link to my resume</a></p>
-            <p className="light-text header-content"><a className="link" href="https://github.com/lukehampton6" target="_blank" rel="noreferrer">And my Github</a></p>
+            <p className="light-text header-content"><a className="link" href={resume} download="LukeHamptonResume" rel="noreferrer">Download my resume</a></p>
+            <p className="light-text header-content"><a className="link" href="https://github.com/lukehampton6" target="_blank" rel="noreferrer">Heres my Github</a></p>
             </Col>
             </Row>
 

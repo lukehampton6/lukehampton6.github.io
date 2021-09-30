@@ -125,6 +125,10 @@ body {
   padding-top: 0;
 }
 
+.margin-bottom {
+  margin-bottom: 5vw;
+}
+
 .align-right {
   text-align: end;
 }
