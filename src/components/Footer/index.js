@@ -26,7 +26,7 @@ function Footer() {
             <Col data-aos="fade-right" className="align-right right-border">
             <h1 className="header highlight-text">Contact Me!</h1>
             <p className="light-text header-content">Email: <a className="link" href="mailto:lukehampton6@gmail.com" >lukehampton6@gmail.com</a></p>
-            <p className="light-text header-content">Phone Number: (386)-444-1294</p>
+            <p className="light-text header-content">Phone Number: <a className="link" href="tel:3868825832">(386)-882-5832</a></p>
             <p className="light-text header-content"><a className="link" href="https://www.linkedin.com/in/luke-hampton-6098371ab/" target="_blank" rel="noreferrer">Visit my LinkedIn</a></p>
             </Col>
             <Col className="empty-col">
