@@ -2,7 +2,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
-import resume from "../../assets/documents/Luke_Hampton_Resume.PDF";
+import resume from "../../assets/documents/luke-hampton-resume.pdf";
 
 function Footer() {
     useEffect(() => {
